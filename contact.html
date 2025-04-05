@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div Page</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #26a197,#a32066,#701898);
+        }
+        .center-div {
+            width: 500px;
+            height: 700px;
+            background: wheat;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: auto;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .app{
+            margin: 100px;
+            display: auto;
+            justify-content: center;
+            align-items: center;
+            color: rgb(154, 26, 185);
+            font-size: 18px;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background:linear-gradient(135deg, #6e8efb, #a777e3);;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="center-div">
+        <div class="app">
+        <h3><u>Name</u>: Hari Krishna Mahato</h3>
+        <h3><u>Registration no.</u>: 12304704</h3>
+        <br><br>
+        <h3><u>Name</u>: Vanshika Panwar</h3>
+        <h3><u>Registration no.</u>: 12310142</h3>
+        <br><br>
+        <h3><u>Name</u>: Akash Shahi</h3>
+        <h3><u>Registration no.</u>: 12323501</h3>
+        <br><br>
+        <h3><u>Section</u>: K23HP</h3>
+        <h3><u>Lovely Professional University</u></h3>
+        </div>
+    </div>
+    <div class="button-container">
+        <button onclick="window.location.href='home.html'">Back to Home</button>
+    </div>
+</body>
+</html>
